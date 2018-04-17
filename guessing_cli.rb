@@ -5,5 +5,8 @@ def run_guessing_game
 
   input = gets.chomp
 
-  while input != "exit"
+  while input != "exit" do
+    if input == number
+      puts "You guess the correct number!"
+  end
 end
